@@ -62,11 +62,8 @@
 		<div class="container">
 		  <div class="row">
 		    <div class="col" style="margin-left: 22px">
-		      <!--<img id="my" onclick="cm();" src="like.png" style="width: 20px; position: static; background-color: white;">-->
-		  <span class=""> 
-		<!--  	<a href="javascript:void">-->
-		  		<i onclick="myF();" id='demo' style="opacity: 0.5; font-size: 23px; position: static; margin-top: 4px;" class="zmdi zmdi-thumb-up"></i>
-		  		<!--</a>-->
+		      <img id="my" onclick="cm();" src="like2.png" style="width: 20px; position: static; background-color: white;">
+		  		<!--<i onclick="myF();" id='demo' style="opacity: 0.5; font-size: 23px; position: static; margin-top: 4px;" class="zmdi zmdi-thumb-up"></i>-->
 		  </span>   <br>
 		      <span id="like" onclick="like();" style="font-size: 13px; opacity: 0.7">1.2M</span>
 		    </div>
@@ -97,7 +94,7 @@
 		    <input id="getimage" type="file"/>
 		</span>
 		<span id="head3" onclick="head3();" style="margin-left: 57px; font-size: 14px;">Axomia Deka</span><br>
-		<span id="head3" onclick="head3();" style="margin-left: 60px; position: relative; font-size: 13px; opacity: 0.8">23.3k</span>
+		<span id="head4" onclick="head4();" style="margin-left: 60px; position: relative; font-size: 13px; opacity: 0.8">23.3k</span>
 		<span style="font-size: 12px; opacity: 0.8">suscribers</span>
 		<span class="float-right mr-3 " style="font-weight: bold; color: red; position: relative;">SUBSCRIBE</span>
 		<hr>
@@ -148,6 +145,12 @@
             document.getElementById("head3").innerHTML = n;
               }
             }
+            function head4(){
+            var n = prompt("Input :", "");
+            if(n!=null){
+            document.getElementById("head4").innerHTML = n;
+              }
+            }
     	function like(){
         var n = prompt("Input :", "");
         if(n!=null){
@@ -157,7 +160,7 @@
         	function dlike(){
             var n = prompt("Input :", "");
             if(n!=null){
-            document.getElementById("elike").innerHTML = n;
+            document.getElementById("dlike").innerHTML = n;
               }
             }
     function change(){
